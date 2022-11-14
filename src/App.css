@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body
+{
+  margin: 0;
+  background-color: #000;
+  color: aliceblue;
+  font-size: 16px;
+  font-family: 'Rubik';
+}
+
+.header
+{
+  width: 100%;
+}
+
+.header h1
+{
+  margin: 0;
+  padding: 5px;
+}
+
+.current
+{
+  width: 100%;
+  text-align: center;
+}
+
+.current h3
+{
+  font-size: 2em;
+  color: #FF8E8E;
+}
+
+.current h2
+{
+  font-size: 4em;
+}
+
+.target
+{
+  width: 100%;
+  text-align: center;
+}
+
+.flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.flex button
+{
+  width: 58px;
+  height: 58px;
+  font-size: 3em;
+  border-radius: 11px;
+  border-color: transparent;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p
+{
+  font-size: 1.5em;
+}
+
+.saveButton
+{
+  width: 60%;
+  height: 60px;
+  color: #FFF;
+  font-size: 2em;
+  background: #6A44FF;
+  border-radius: 11px;
+  border-color: transparent;
+}
+
+.sub
+{
+  background-color: #DE3F6F;
+  color: #FFF;
+  font-size: 4em;
+}
+
+.add
+{
+  background-color: #3BCE52;
+  color: #FFF;
+}
